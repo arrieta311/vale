@@ -1,0 +1,31 @@
+*::after
+*::before
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    max-width: 1200px;
+    font-family: lato;
+    margin: 0 auto;
+    color: #040404;
+    background-color: #ae6aeeef;
+}
+img{
+    max-width: 30%;
+    align-content: center;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0 40px 0 ;
+
+}
+
+.container-items{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+}
